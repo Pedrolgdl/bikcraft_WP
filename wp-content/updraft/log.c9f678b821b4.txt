@@ -1,0 +1,210 @@
+0000.000 (0) Opened log file at time: Tue, 12 Oct 2021 21:04:03 +0000 on http://localhost/bikcraft
+0000.008 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.62 WP: 5.8.1 PHP: 8.0.11 (apache2handler, Windows NT LAPTOP-LRC25U86 10.0 build 19043 (Windows 10) AMD64) MySQL: 10.4.21-MariaDB (max packet size=1048576) WPLANG: pt_BR Server: Apache/2.4.51 (Win64) OpenSSL/1.1.1l PHP/8.0.11 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 43.6M | 6M) multisite: N openssl: OpenSSL 1.1.1l  24 Aug 2021 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.011 (0) Free space on disk containing Updraft's temporary directory: 72480.4 MB
+0000.015 (0) Tasks: Backup files: 1 (schedule: unset) Backup DB: 1 (schedule: unset)
+0000.019 (0) Semaphore (fd, wp_options) being initialised
+0000.032 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.041 (0) Set semaphore last lock (fd) time to 2021-10-12 21:04:03
+0000.048 (0) Semaphore lock (fd) complete
+0000.062 (0) Backup run: resumption=0, nonce=c9f678b821b4, file_nonce=c9f678b821b4 begun at=1634072643 (0s ago), job type=backup
+0000.072 (0) Scheduling a resumption (1) after 300 seconds (1634072943) in case this run gets aborted
+0000.085 (0) Checking if we have a zip executable available
+0000.092 (0) Creation of backups of directories: beginning
+0000.104 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0001.473 (0) Total entities for the zip file: 1503 directories, 4382 files (0 skipped as non-modified), 58.5 MB
+0001.506 (0) PHP event: code E_DEPRECATED: ZipArchive::open(): Using empty file as ZipArchive is deprecated (line 3784, C:\xampp\htdocs\bikcraft\wp-content\plugins\updraftplus\backup.php)
+0001.532 (0) Zip: backup_2021-10-12-1804_Bikcraft_c9f678b821b4-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0001.558 (0) Zip: backup_2021-10-12-1804_Bikcraft_c9f678b821b4-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0001.584 (0) Zip: backup_2021-10-12-1804_Bikcraft_c9f678b821b4-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0001.609 (0) Zip: backup_2021-10-12-1804_Bikcraft_c9f678b821b4-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0001.635 (0) Zip: backup_2021-10-12-1804_Bikcraft_c9f678b821b4-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0001.661 (0) Zip: backup_2021-10-12-1804_Bikcraft_c9f678b821b4-plugins.zip.tmp: 600 files added (on-disk size: 0 KB)
+0001.687 (0) Zip: backup_2021-10-12-1804_Bikcraft_c9f678b821b4-plugins.zip.tmp: 700 files added (on-disk size: 0 KB)
+0001.706 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 25 MB added on this batch (25 MB, 4382 files batched, 761 (761) added so far); re-opening (prior size: 0 KB)
+0003.354 (0) A useful amount of data was added after this amount of zip processing: 4 s (normalised: 4 s, rate: 6467.4 KB/s)
+0003.362 (0) Performance is good - will increase the amount of data we attempt to batch (time=3.9592568874359, normalised_time=3.9583279463377, max_time=3.35680103302, data points known=1, old_max_bytes=26214400, new_max_bytes=39735565)
+0003.388 (0) Zip: backup_2021-10-12-1804_Bikcraft_c9f678b821b4-plugins.zip.tmp: 800 files added (on-disk size: 7670.7 KB)
+0003.415 (0) Zip: backup_2021-10-12-1804_Bikcraft_c9f678b821b4-plugins.zip.tmp: 900 files added (on-disk size: 7670.7 KB)
+0003.441 (0) Zip: backup_2021-10-12-1804_Bikcraft_c9f678b821b4-plugins.zip.tmp: 1000 files added (on-disk size: 7670.7 KB)
+0003.469 (0) Zip: backup_2021-10-12-1804_Bikcraft_c9f678b821b4-plugins.zip.tmp: 1100 files added (on-disk size: 7670.7 KB)
+0003.498 (0) Zip: backup_2021-10-12-1804_Bikcraft_c9f678b821b4-plugins.zip.tmp: 1200 files added (on-disk size: 7670.7 KB)
+0003.525 (0) Zip: backup_2021-10-12-1804_Bikcraft_c9f678b821b4-plugins.zip.tmp: 1300 files added (on-disk size: 7670.7 KB)
+0003.553 (0) Zip: backup_2021-10-12-1804_Bikcraft_c9f678b821b4-plugins.zip.tmp: 1400 files added (on-disk size: 7670.7 KB)
+0003.600 (0) Zip: backup_2021-10-12-1804_Bikcraft_c9f678b821b4-plugins.zip.tmp: 1500 files added (on-disk size: 7670.7 KB)
+0003.627 (0) Zip: backup_2021-10-12-1804_Bikcraft_c9f678b821b4-plugins.zip.tmp: 1600 files added (on-disk size: 7670.7 KB)
+0003.653 (0) Zip: backup_2021-10-12-1804_Bikcraft_c9f678b821b4-plugins.zip.tmp: 1700 files added (on-disk size: 7670.7 KB)
+0003.672 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (5.4 MB, 4382 files batched, 1001 (1762) added so far); re-opening (prior size: 7670.7 KB)
+0004.193 (0) Zip: backup_2021-10-12-1804_Bikcraft_c9f678b821b4-plugins.zip.tmp: 1800 files added (on-disk size: 9493.1 KB)
+0004.219 (0) Zip: backup_2021-10-12-1804_Bikcraft_c9f678b821b4-plugins.zip.tmp: 1900 files added (on-disk size: 9493.1 KB)
+0004.245 (0) Zip: backup_2021-10-12-1804_Bikcraft_c9f678b821b4-plugins.zip.tmp: 2000 files added (on-disk size: 9493.1 KB)
+0004.271 (0) Zip: backup_2021-10-12-1804_Bikcraft_c9f678b821b4-plugins.zip.tmp: 2100 files added (on-disk size: 9493.1 KB)
+0004.298 (0) Zip: backup_2021-10-12-1804_Bikcraft_c9f678b821b4-plugins.zip.tmp: 2200 files added (on-disk size: 9493.1 KB)
+0004.323 (0) Zip: backup_2021-10-12-1804_Bikcraft_c9f678b821b4-plugins.zip.tmp: 2300 files added (on-disk size: 9493.1 KB)
+0004.352 (0) Zip: backup_2021-10-12-1804_Bikcraft_c9f678b821b4-plugins.zip.tmp: 2400 files added (on-disk size: 9493.1 KB)
+0004.380 (0) Zip: backup_2021-10-12-1804_Bikcraft_c9f678b821b4-plugins.zip.tmp: 2500 files added (on-disk size: 9493.1 KB)
+0004.408 (0) Zip: backup_2021-10-12-1804_Bikcraft_c9f678b821b4-plugins.zip.tmp: 2600 files added (on-disk size: 9493.1 KB)
+0004.435 (0) Zip: backup_2021-10-12-1804_Bikcraft_c9f678b821b4-plugins.zip.tmp: 2700 files added (on-disk size: 9493.1 KB)
+0004.454 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (7.2 MB, 4382 files batched, 1001 (2763) added so far); re-opening (prior size: 9493.1 KB)
+0005.029 (0) Zip: backup_2021-10-12-1804_Bikcraft_c9f678b821b4-plugins.zip.tmp: 2800 files added (on-disk size: 11758.5 KB)
+0005.056 (0) Zip: backup_2021-10-12-1804_Bikcraft_c9f678b821b4-plugins.zip.tmp: 2900 files added (on-disk size: 11758.5 KB)
+0005.084 (0) Zip: backup_2021-10-12-1804_Bikcraft_c9f678b821b4-plugins.zip.tmp: 3000 files added (on-disk size: 11758.5 KB)
+0005.110 (0) Zip: backup_2021-10-12-1804_Bikcraft_c9f678b821b4-plugins.zip.tmp: 3100 files added (on-disk size: 11758.5 KB)
+0005.138 (0) Zip: backup_2021-10-12-1804_Bikcraft_c9f678b821b4-plugins.zip.tmp: 3200 files added (on-disk size: 11758.5 KB)
+0005.164 (0) Zip: backup_2021-10-12-1804_Bikcraft_c9f678b821b4-plugins.zip.tmp: 3300 files added (on-disk size: 11758.5 KB)
+0005.191 (0) Zip: backup_2021-10-12-1804_Bikcraft_c9f678b821b4-plugins.zip.tmp: 3400 files added (on-disk size: 11758.5 KB)
+0005.217 (0) Zip: backup_2021-10-12-1804_Bikcraft_c9f678b821b4-plugins.zip.tmp: 3500 files added (on-disk size: 11758.5 KB)
+0005.244 (0) Zip: backup_2021-10-12-1804_Bikcraft_c9f678b821b4-plugins.zip.tmp: 3600 files added (on-disk size: 11758.5 KB)
+0005.270 (0) Zip: backup_2021-10-12-1804_Bikcraft_c9f678b821b4-plugins.zip.tmp: 3700 files added (on-disk size: 11758.5 KB)
+0005.289 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (18.1 MB, 4382 files batched, 1001 (3764) added so far); re-opening (prior size: 11758.5 KB)
+0006.375 (0) Zip: backup_2021-10-12-1804_Bikcraft_c9f678b821b4-plugins.zip.tmp: 3800 files added (on-disk size: 13913.5 KB)
+0006.402 (0) Zip: backup_2021-10-12-1804_Bikcraft_c9f678b821b4-plugins.zip.tmp: 3900 files added (on-disk size: 13913.5 KB)
+0006.429 (0) Zip: backup_2021-10-12-1804_Bikcraft_c9f678b821b4-plugins.zip.tmp: 4000 files added (on-disk size: 13913.5 KB)
+0006.455 (0) Zip: backup_2021-10-12-1804_Bikcraft_c9f678b821b4-plugins.zip.tmp: 4100 files added (on-disk size: 13913.5 KB)
+0006.482 (0) Zip: backup_2021-10-12-1804_Bikcraft_c9f678b821b4-plugins.zip.tmp: 4200 files added (on-disk size: 13913.5 KB)
+0006.509 (0) Zip: backup_2021-10-12-1804_Bikcraft_c9f678b821b4-plugins.zip.tmp: 4300 files added (on-disk size: 13913.5 KB)
+0006.922 (0) Creating zip file manifest (C:\xampp\htdocs\bikcraft/wp-content/updraft/backup_2021-10-12-1804_Bikcraft_c9f678b821b4-plugins.zip.list-temp.tmp)
+0006.940 (0) Successfully created zip file manifest (size: 402811)
+0007.065 (0) Created plugins zip (0) - 14671.2 KB in 7 s (2109.3 KB/s) (sha1: a564b58f898cdc9cb7f71ac96a609c8561f060f0, sha256: 052ce269a8fc82946c7ee6cfec2bfc49dc8a16e62b9957276084e01457a89082)
+0007.075 (0) Beginning creation of dump of themes (split every: 400 MB)
+0007.108 (0) Total entities for the zip file: 10 directories, 64 files (0 skipped as non-modified), 1.6 MB
+0007.113 (0) PHP event: code E_DEPRECATED: ZipArchive::open(): Using empty file as ZipArchive is deprecated (line 3784, C:\xampp\htdocs\bikcraft\wp-content\plugins\updraftplus\backup.php)
+0007.178 (0) Creating zip file manifest (C:\xampp\htdocs\bikcraft/wp-content/updraft/backup_2021-10-12-1804_Bikcraft_c9f678b821b4-themes.zip.list-temp.tmp)
+0007.183 (0) Successfully created zip file manifest (size: 3121)
+0007.212 (0) Created themes zip (0) - 1538.2 KB in 0.1 s (12288.5 KB/s) (sha1: 83e9bf1c0ec83295835696739d2c8228a3efc07b, sha256: f1f655a308524b461eba9ea34a609e2e3b38ccc61f7337435c2524a77bc4dace)
+0007.222 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0007.225 (0) Looking for candidates to backup in: C:\xampp\htdocs\bikcraft/wp-content/uploads
+0007.229 (0) finding files: 2021: adding to list (1)
+0007.232 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0007.246 (0) Total entities for the zip file: 2 directories, 24 files (0 skipped as non-modified), 1.3 MB
+0007.251 (0) PHP event: code E_DEPRECATED: ZipArchive::open(): Using empty file as ZipArchive is deprecated (line 3784, C:\xampp\htdocs\bikcraft\wp-content\plugins\updraftplus\backup.php)
+0007.288 (0) Creating zip file manifest (C:\xampp\htdocs\bikcraft/wp-content/updraft/backup_2021-10-12-1804_Bikcraft_c9f678b821b4-uploads.zip.list-temp.tmp)
+0007.291 (0) Successfully created zip file manifest (size: 1108)
+0007.314 (0) Created uploads zip (0) - 1355.9 KB in 0.1 s (17435.4 KB/s) (sha1: 3b279fe56146b2d66abc633f0315bc8da2521c92, sha256: 12b87961fc4d181eb4097d9689fdfd11c3720b97f063606e2b303444617a253f)
+0007.325 (0) Beginning backup of other directories found in the content directory (index: 0)
+0007.329 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0007.334 (0) Looking for candidates to backup in: C:\xampp\htdocs\bikcraft/wp-content
+0007.338 (0) finding files: advanced-cache.php: adding to list (1)
+0007.343 (0) finding files: cache: skipping: excluded by options
+0007.348 (0) finding files: index.php: adding to list (2)
+0007.352 (0) finding files: languages: adding to list (3)
+0007.357 (0) finding files: plugins: skipping: this is the plugins directory
+0007.362 (0) finding files: themes: skipping: this is the themes directory
+0007.367 (0) finding files: updraft: skipping: this is the updraft directory
+0007.370 (0) finding files: upgrade: skipping: excluded by options
+0007.373 (0) finding files: uploads: skipping: this is the uploads directory
+0007.376 (0) finding files: w3tc-config: adding to list (4)
+0007.401 (0) Total entities for the zip file: 4 directories, 70 files (0 skipped as non-modified), 2.5 MB
+0007.405 (0) PHP event: code E_DEPRECATED: ZipArchive::open(): Using empty file as ZipArchive is deprecated (line 3784, C:\xampp\htdocs\bikcraft\wp-content\plugins\updraftplus\backup.php)
+0007.626 (0) Creating zip file manifest (C:\xampp\htdocs\bikcraft/wp-content/updraft/backup_2021-10-12-1804_Bikcraft_c9f678b821b4-others.zip.list-temp.tmp)
+0007.632 (0) Successfully created zip file manifest (size: 4067)
+0007.670 (0) Created others zip (0) - 728.1 KB in 0.3 s (2518.5 KB/s) (sha1: f9519fe5eaf5afcb6d18317fd4ac02ca269f9f25, sha256: 493e0ac7555af3e9350cefc670bb0f2e6e072716dd5c95b67c30006f02da157b)
+0007.704 (0) Saving backup status to database (elements: 8)
+0007.717 (0) Beginning creation of database dump (WordPress DB)
+0007.723 (0) SQL compatibility mode is: NO_ZERO_IN_DATE,NO_ENGINE_SUBSTITUTION
+0007.733 (0) Testing potential mysqldump binary: C:\Program Files\MySQL\MySQL Workbench 8.0 CE\mysqldump.exe
+0007.844 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `wp_options`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!50503 SET character_set_client = utf8mb4 */;\n (truncated - 1292 bytes total)
+0007.849 (0) Binary mysqldump: error (code: 2)
+0007.878 (0) Table wp_options: Total expected rows (via COUNT): 204
+0007.882 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0007.934 (0) Table wp_options: Rows added in this batch (next record: 305): 200 (uncompressed bytes in this segment=1202505) in 0.07 seconds
+0007.955 (0) Table wp_options: finishing file(s) (2, 291 KB)
+0007.966 (0) Table wp_users: Total expected rows (via COUNT): 1
+0007.971 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0007.983 (0) Table wp_users: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1360) in 0.02 seconds
+0007.998 (0) Table wp_users: finishing file(s) (2, 0.6 KB)
+0008.020 (0) Table wp_usermeta: Total expected rows (via COUNT): 22
+0008.025 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0008.030 (0) Table wp_usermeta: Rows added in this batch (next record: 22): 22 (uncompressed bytes in this segment=2057) in 0.02 seconds
+0008.053 (0) Table wp_usermeta: finishing file(s) (2, 1.1 KB)
+0008.072 (0) Table wp_commentmeta: Total expected rows (via COUNT): 0
+0008.080 (0) Table wp_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=684) in 0.02 seconds
+0008.101 (0) Table wp_commentmeta: finishing file(s) (2, 0.4 KB)
+0008.113 (0) Table wp_comments: Total expected rows (via COUNT): 1
+0008.118 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0008.127 (0) Table wp_comments: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=2104) in 0.02 seconds
+0008.145 (0) Table wp_comments: finishing file(s) (2, 0.8 KB)
+0008.163 (0) Table wp_links: Total expected rows (via COUNT): 0
+0008.174 (0) Table wp_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1266) in 0.01 seconds
+0008.189 (0) Table wp_links: finishing file(s) (2, 0.5 KB)
+0008.212 (0) Table wp_postmeta: Total expected rows (via COUNT): 961
+0008.217 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0008.229 (0) Table wp_postmeta: Rows added in this batch (next record: 1061): 961 (uncompressed bytes in this segment=71502) in 0.03 seconds
+0008.250 (0) Table wp_postmeta: finishing file(s) (2, 10.5 KB)
+0008.275 (0) Table wp_posts: Total expected rows (via COUNT): 144
+0008.278 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0008.289 (0) Table wp_posts: Rows added in this batch (next record: 159): 144 (uncompressed bytes in this segment=65574) in 0.02 seconds
+0008.311 (0) Table wp_posts: finishing file(s) (2, 7.7 KB)
+0008.323 (0) Table wp_term_relationships: Total expected rows (approximate): 8
+0008.332 (0) Table wp_term_relationships: Rows added in this batch (next record: 100000): 8 (uncompressed bytes in this segment=790) in 0.01 seconds
+0008.349 (0) Table wp_term_relationships: finishing file(s) (2, 0.4 KB)
+0008.366 (0) Table wp_term_taxonomy: Total expected rows (via COUNT): 2
+0008.370 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0008.382 (0) Table wp_term_taxonomy: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=939) in 0.02 seconds
+0008.406 (0) Table wp_term_taxonomy: finishing file(s) (2, 0.5 KB)
+0008.428 (0) Table wp_termmeta: Total expected rows (via COUNT): 0
+0008.436 (0) Table wp_termmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=657) in 0.02 seconds
+0008.458 (0) Table wp_termmeta: finishing file(s) (2, 0.4 KB)
+0008.471 (0) Table wp_terms: Total expected rows (via COUNT): 2
+0008.476 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0008.484 (0) Table wp_terms: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=767) in 0.02 seconds
+0008.503 (0) Table wp_terms: finishing file(s) (2, 0.4 KB)
+0008.509 (0) PHP event: code E_WARNING: filemtime(): stat failed for C:\xampp\htdocs\bikcraft/wp-content/updraft/backup_2021-10-12-1804_Bikcraft_c9f678b821b4-db.gz (line 1828, C:\xampp\htdocs\bikcraft\wp-content\plugins\updraftplus\backup.php)
+0008.513 (0) backup_2021-10-12-1804_Bikcraft_c9f678b821b4-db-table-wp_options.table.tmpr306.gz (1/12/fopen): adding to final database dump
+0008.522 (0) backup_2021-10-12-1804_Bikcraft_c9f678b821b4-db-table-wp_options.table.gz (2/12/fopen): adding to final database dump
+0008.529 (0) backup_2021-10-12-1804_Bikcraft_c9f678b821b4-db-table-wp_users.table.tmpr2.gz (3/12/fopen): adding to final database dump
+0008.533 (0) backup_2021-10-12-1804_Bikcraft_c9f678b821b4-db-table-wp_users.table.gz (4/12/fopen): adding to final database dump
+0008.536 (0) backup_2021-10-12-1804_Bikcraft_c9f678b821b4-db-table-wp_usermeta.table.tmpr23.gz (5/12/fopen): adding to final database dump
+0008.541 (0) backup_2021-10-12-1804_Bikcraft_c9f678b821b4-db-table-wp_usermeta.table.gz (6/12/fopen): adding to final database dump
+0008.545 (0) backup_2021-10-12-1804_Bikcraft_c9f678b821b4-db-table-wp_commentmeta.table.tmpr0.gz (7/12/fopen): adding to final database dump
+0008.549 (0) backup_2021-10-12-1804_Bikcraft_c9f678b821b4-db-table-wp_commentmeta.table.gz (8/12/fopen): adding to final database dump
+0008.552 (0) backup_2021-10-12-1804_Bikcraft_c9f678b821b4-db-table-wp_comments.table.tmpr2.gz (9/12/fopen): adding to final database dump
+0008.555 (0) backup_2021-10-12-1804_Bikcraft_c9f678b821b4-db-table-wp_comments.table.gz (10/12/fopen): adding to final database dump
+0008.558 (0) backup_2021-10-12-1804_Bikcraft_c9f678b821b4-db-table-wp_links.table.tmpr0.gz (11/12/fopen): adding to final database dump
+0008.562 (0) backup_2021-10-12-1804_Bikcraft_c9f678b821b4-db-table-wp_links.table.gz (12/12/fopen): adding to final database dump
+0008.565 (0) backup_2021-10-12-1804_Bikcraft_c9f678b821b4-db-table-wp_postmeta.table.tmpr1062.gz (13/12/fopen): adding to final database dump
+0008.569 (0) backup_2021-10-12-1804_Bikcraft_c9f678b821b4-db-table-wp_postmeta.table.gz (14/12/fopen): adding to final database dump
+0008.573 (0) backup_2021-10-12-1804_Bikcraft_c9f678b821b4-db-table-wp_posts.table.tmpr160.gz (15/12/fopen): adding to final database dump
+0008.577 (0) backup_2021-10-12-1804_Bikcraft_c9f678b821b4-db-table-wp_posts.table.gz (16/12/fopen): adding to final database dump
+0008.582 (0) backup_2021-10-12-1804_Bikcraft_c9f678b821b4-db-table-wp_term_relationships.table.tmpr100001.gz (17/12/fopen): adding to final database dump
+0008.585 (0) backup_2021-10-12-1804_Bikcraft_c9f678b821b4-db-table-wp_term_relationships.table.gz (18/12/fopen): adding to final database dump
+0008.588 (0) backup_2021-10-12-1804_Bikcraft_c9f678b821b4-db-table-wp_term_taxonomy.table.tmpr3.gz (19/12/fopen): adding to final database dump
+0008.593 (0) backup_2021-10-12-1804_Bikcraft_c9f678b821b4-db-table-wp_term_taxonomy.table.gz (20/12/fopen): adding to final database dump
+0008.596 (0) backup_2021-10-12-1804_Bikcraft_c9f678b821b4-db-table-wp_termmeta.table.tmpr0.gz (21/12/fopen): adding to final database dump
+0008.599 (0) backup_2021-10-12-1804_Bikcraft_c9f678b821b4-db-table-wp_termmeta.table.gz (22/12/fopen): adding to final database dump
+0008.604 (0) backup_2021-10-12-1804_Bikcraft_c9f678b821b4-db-table-wp_terms.table.tmpr3.gz (23/12/fopen): adding to final database dump
+0008.607 (0) backup_2021-10-12-1804_Bikcraft_c9f678b821b4-db-table-wp_terms.table.gz (24/12/fopen): adding to final database dump
+0008.621 (0) backup_2021-10-12-1804_Bikcraft_c9f678b821b4-db.gz: finished writing out complete database file (314.6 KB)
+0008.643 (0) Total database tables backed up: 12 (backup_2021-10-12-1804_Bikcraft_c9f678b821b4-db.gz, size: 322291, sha1: 4cc38d61bbbb3df64450086cbd37fc41ad0d70af, sha256: db50561a5a24710543fa11a53a5a14309071fa76d1348ecca056aee6a18153be)
+0008.661 (0) backup_2021-10-12-1804_Bikcraft_c9f678b821b4-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0008.664 (0) backup_2021-10-12-1804_Bikcraft_c9f678b821b4-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0008.669 (0) backup_2021-10-12-1804_Bikcraft_c9f678b821b4-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0008.673 (0) backup_2021-10-12-1804_Bikcraft_c9f678b821b4-others.zip: others: This file has not yet been successfully uploaded: will queue
+0008.676 (0) backup_2021-10-12-1804_Bikcraft_c9f678b821b4-db.gz: db: This file has not yet been successfully uploaded: will queue
+0008.679 (0) Saving backup history. Total backup size: 18.2 MB
+0008.722 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0008.748 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0008.751 (0) No remote despatch: user chose no remote backup service
+0008.754 (0) Recording as successfully uploaded: backup_2021-10-12-1804_Bikcraft_c9f678b821b4-plugins.zip
+0008.759 (0) Recording as successfully uploaded: backup_2021-10-12-1804_Bikcraft_c9f678b821b4-themes.zip
+0008.766 (0) Recording as successfully uploaded: backup_2021-10-12-1804_Bikcraft_c9f678b821b4-uploads.zip
+0008.772 (0) Recording as successfully uploaded: backup_2021-10-12-1804_Bikcraft_c9f678b821b4-others.zip
+0008.780 (0) Recording as successfully uploaded: backup_2021-10-12-1804_Bikcraft_c9f678b821b4-db.gz
+0008.796 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0008.801 (0) Number of backup sets in history: 1; groups (db): 1
+0008.806 (0) Examining (for databases) backup set with group_id=0, nonce=c9f678b821b4, datestamp=1634072643 (Oct 12 2021 21:04:03)
+0008.810 (0) This backup set is the backup set just made, so will not be deleted.
+0008.810 (0) Number of backup sets in history: 1; groups (files): 1
+0008.815 (0) Examining (for files) backup set with nonce=c9f678b821b4, datestamp=1634072643 (Oct 12 2021 21:04:03)
+0008.815 (0) This backup set is the backup set just made, so will not be deleted.
+0008.820 (0) This backup set is the backup set just made, so will not be deleted.
+0008.820 (0) This backup set is the backup set just made, so will not be deleted.
+0008.820 (0) This backup set is the backup set just made, so will not be deleted.
+0008.820 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0008.825 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0008.835 (0) Resume backup (c9f678b821b4, 0): finish run
+0008.857 (0) Decremented the semaphore (fd) by 1
+0008.865 (0) Semaphore (fd) unlocked
+0008.868 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0008.884 (0) The backup apparently succeeded and is now complete
+0008.889 (0) No email will/can be sent - the user has not configured an email address.
+0008.896 (0) O backup aparentemente foi bem sucedido e está completo agora.
